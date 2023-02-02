@@ -1,0 +1,70 @@
+body {
+    margin: 0;
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+@font-face {
+    font-family: orbitron;
+    src: url(fonts/orbitron.ttf);
+}
+.score {
+    font-family: orbitron, verdana, sans-serif;
+}
+
+
+h3 {
+    font-size: 1.9rem;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    width: 800px;
+    height: 250px;
+    background: #1b244a;
+    margin: 10px auto;
+    color: #eee;
+    padding-bottom: 20px;
+}
+
+.score {
+    width: 75px;
+    height: 75px;
+    background: #000;
+    color: #ed4e6d;
+    text-align: center;
+    font-size: 3rem;
+    border-radius: 10px;
+    padding: 15px;   
+    
+}
+
+.update-score {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 15px;;
+   
+}
+
+.add-one,
+.add-two, 
+.add-three {
+    border: #fff 1px solid;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-right: 10px;
+    padding:10px;
+    font-size: 1.2rem;
+}
+
+.home-score,
+.visitor-score {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.reset{
+    background:  #1b244a;
+    color:white;
+}
