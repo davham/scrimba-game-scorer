@@ -68,3 +68,10 @@ h3 {
     background:  #1b244a;
     color:white;
 }
+
+@media screen and (min-width: 400px){
+    .container {
+        width: 80%;
+    }
+
+} 
