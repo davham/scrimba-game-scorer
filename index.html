@@ -1,36 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Game Scorer</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-    <div class="container">
-        <div class="home-score">
-            <h3>HOME</h3>
-            <div id="home-el" class="score">0</div>
-            <div class="update-score">
-                <span  class="add-one" onclick="Haddone()">+1</span>
-                <span  class="add-two" onclick="Haddtwo()">+2</span>
-                <span  class="add-three" onclick="Haddthree()">+3</span>
-            </div>
-        </div>
-        <p class="reset" onclick="reset()">RESET</p>
-        <div class="visitor-score">
-            <h3>GUEST</h3>
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Game Scorer</title>
+		<link rel="stylesheet" href="styles.css" />
+	</head>
+	<body>
+		<div class="container">
+			<div class="home-score">
+				<h3>HOME</h3>
+				<div id="home-el" class="score">0</div>
+				<div class="update-score">
+					<span class="add-one" onclick="Haddone()">+1</span>
+					<span class="add-two" onclick="Haddtwo()">+2</span>
+					<span class="add-three" onclick="Haddthree()">+3 </span>
+				</div>
+			</div>
+			<p class="reset" onclick="reset()">RESET</p>
+			<div class="visitor-score">
+				<h3>GUEST</h3>
 
-            <div id="visitor-el" class="score">0</div>
-            <div class="update-score">
-                <span class="add-one" onclick="Vaddone()">+1</span>
-                <span class="add-two" onclick="Vaddtwo()">+2</span>
-                <span class="add-three" onclick="Vaddthree()">+3</span>
-            </div>
-        </div>
-    </div>
-    
-    <script src="index.js"></script>
-</body>
+				<div id="visitor-el" class="score">0</div>
+				<div class="update-score">
+					<span class="add-one" onclick="Vaddone()">+1</span>
+					<span class="add-two" onclick="Vaddtwo()">+2</span>
+					<span class="add-three" onclick="Vaddthree()">+3</span>
+				</div>
+			</div>
+		</div>
+
+		<script src="index.js"></script>
+	</body>
 </html>
